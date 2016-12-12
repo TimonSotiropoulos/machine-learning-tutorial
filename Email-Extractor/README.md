@@ -8,6 +8,23 @@ To run this script you will need to have Python 2.7 installed. Download and inst
 
 <https://www.python.org/downloads/>
 
+Your python installation cae be tested with the following command:
+
+	$ python --version
+
+The script also uses the BeautifulSoup python package. To install this you will need a python package manager, I suggest PIP. You can check that it is installed with the following command:
+
+	$ pip --version
+	
+Pip can be be downloaded by following the instructions here:
+
+<https://pip.pypa.io/en/stable/installing/>
+
+Once Pip is install you can install the Beautiful Soup package with the following command:
+
+	$ pip install beautifulsoup4
+	
+
 ###Usage Instructions
 
 The script requires the user to have a list of mBoxes that they wish to turn into one large CSV file. MBox archives of gmail emails can be created by following [the official instructions on Google's website.](https://gmail.googleblog.com/2013/12/download-copy-of-your-gmail-and-google.html)  
