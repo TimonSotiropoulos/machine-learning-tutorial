@@ -2,7 +2,9 @@ import mailbox
 import csv
 from bs4 import BeautifulSoup
 
+# ******************************************************
 # SET THESE CONSTANTS BEFORE RUNNING SCRIPT
+# ******************************************************
 CSV_PATH = 'outputDataFileName.csv'
 MBOX_LIST = [
     ('path/to/your/first/archive.mbox', 'spam'),
@@ -34,8 +36,7 @@ def getBody(msg):
         # print payload
         body = msg.get_payload(decode=True)
     return body
-
-
+    
 ########################################################
 # Function: stripHtmlCssJS(email) -> string
 ########################################################
